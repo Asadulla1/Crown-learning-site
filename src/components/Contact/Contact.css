@@ -1,0 +1,14 @@
+/* .margin {
+ 
+} */
+.margin {
+  width: 500px;
+  margin-right: 150px !important;
+}
+@media screen and (max-width: 576px) {
+  .margin {
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}
